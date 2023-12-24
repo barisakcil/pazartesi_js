@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var sayilar = [
+    parseInt(prompt("Birinci sayıyı gir:")),
+    parseInt(prompt("İkinci sayıyı gir:")),
+    parseInt(prompt("Üçüncü sayıyı gir:"))
+    ];
+
+    sayilar.sort((a, b) => a - b);
+    console.log("Ortadaki sayı: " + sayilar[1]);
+    </script>
+</body>
+</html>

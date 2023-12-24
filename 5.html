@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function kalanliBolme(A, B) {
+            var kalan = A;
+            while (kalan >= B) {
+                kalan = kalan - B;
+            }
+            return kalan;
+        }
+    
+        var A = parseInt(prompt("Bölünen sayıyı girin:"));
+        var B = parseInt(prompt("Bölen sayıyı girin:"));
+    
+        var kalan = kalanliBolme(A, B);
+        console.log(kalan);
+    </script>
+</body>
+</html>
